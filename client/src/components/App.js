@@ -14,10 +14,12 @@ const App = props => {
   const [filteredBooks, setFilteredBooks] = React.useState(Data.data);
 
   React.useEffect(() => {
+    debugger;
     if (!searchText) {
       setFilteredBooks(Data.data);
     } else {
-      const filtered = filteredBooks.filter(item => {
+      const filtered = Data.data.filter(item => {
+        debugger;
         return item.book[searchParam].includes(searchText);
       });
       setFilteredBooks(filtered);
@@ -27,7 +29,7 @@ const App = props => {
       setFilteredBooks(Data.data);
     };
 
-  }, [searchText]);
+  }, [searchText, searchParam]);
 
   return (
     <div className="App">
