@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        Practice search
+        <div className="header">
+          header
+        </div>
       </div>
     );
   }
