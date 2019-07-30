@@ -14,7 +14,6 @@ const App = props => {
   const [filteredBooks, setFilteredBooks] = React.useState(Data.data);
 
   React.useEffect(() => {
-    debugger;
     if (!searchText) {
       setFilteredBooks(Data.data);
     } else {
