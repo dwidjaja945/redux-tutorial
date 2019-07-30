@@ -18,7 +18,6 @@ const App = props => {
       setFilteredBooks(Data.data);
     } else {
       const filtered = Data.data.filter(item => {
-        debugger;
         return item.book[searchParam].includes(searchText);
       });
       setFilteredBooks(filtered);
