@@ -2,3 +2,8 @@
     font-size: 1.5em;
     text-align: center;
 }
+
+.active {
+    color: white;
+    background-color: red;
+}

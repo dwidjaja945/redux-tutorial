@@ -34,7 +34,7 @@ const App = props => {
       <div className="header">
         header
         </div>
-      <Search params={ { params, setParam } } setSearchText={ setSearchText } searchText={ searchText } />
+      <Search params={ { params, searchParam, setParam } } setSearchText={ setSearchText } searchText={ searchText } />
       <Content books={ filteredBooks } />
     </div>
   );

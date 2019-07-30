@@ -14,7 +14,7 @@ function Search(props) {
             <input type="text" value={ searchText } onChange={ event => setSearchText(event.target.value) } />
 
             { params.params.map(item => (
-                <button onClick={ () => params.setParam(item) }>{ item }</button>
+                <button className={ params.searchParam === item && 'active' } onClick={ () => params.setParam(item) }>{ item }</button>
             )) }
 
         </div>
