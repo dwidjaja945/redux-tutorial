@@ -14,16 +14,20 @@ const App = props => {
   const [filteredBooks, setFilteredBooks] = React.useState(Data.data);
 
   React.useEffect(() => {
-    const filtered = filteredBooks.filter(item => {
-      return item.book[searchParam].includes(searchText);
-    });
-    setFilteredBooks(filtered);
+    if (!searchText) {
+      setFilteredBooks(Data.data);
+    } else {
+      const filtered = filteredBooks.filter(item => {
+        return item.book[searchParam].includes(searchText);
+      });
+      setFilteredBooks(filtered);
+    }
 
     return () => {
       setFilteredBooks(Data.data);
     };
 
-  }, [searchText, searchParam]);
+  }, [searchText]);
 
   return (
     <div className="App">
