@@ -6,7 +6,7 @@ const Library = {
             book: {
                 author: 'some author',
                 title: 'some title',
-                year: 1904,
+                year: '1904',
                 publisher: 'some publisher',
             }
         },
@@ -15,7 +15,7 @@ const Library = {
             book: {
                 author: 'samuel jacobs',
                 title: 'the boy and the boy',
-                year: 2010,
+                year: '2010',
                 publisher: 'monty python',
             },
         },
@@ -24,7 +24,7 @@ const Library = {
             book: {
                 author: 'ocean vuong',
                 title: 'on earth we are briefly gorgeous',
-                year: 2018,
+                year: '2018',
                 publisher: 'lemons',
             }
         },
@@ -33,7 +33,7 @@ const Library = {
             book: {
                 author: 'man dark',
                 title: 'dexter and his lab',
-                year: 1998,
+                year: '1998',
                 publisher: 'cartoon network',
             },
         },
@@ -42,7 +42,7 @@ const Library = {
             book: {
                 author: 'gaz',
                 title: 'architecture a to z',
-                year: 1998,
+                year: '1998',
                 publisher: 'taschen',
             }
         },
@@ -51,7 +51,7 @@ const Library = {
             book: {
                 author: 'john bravo',
                 title: 'hot mama',
-                year: 1999,
+                year: '1999',
                 publisher: 'cartoon network',
             }
         },
@@ -60,7 +60,7 @@ const Library = {
             book: {
                 author: 'kevin kwan',
                 title: 'crazy rich asians',
-                year: 2013,
+                year: '2013',
                 publisher: 'anchor',
             }
         },
@@ -69,7 +69,7 @@ const Library = {
             book: {
                 author: 'seth macfarland',
                 title: 'family guy',
-                year: 1999,
+                year: '1999',
                 publisher: 'adult swim',
             }
         },
@@ -78,7 +78,7 @@ const Library = {
             book: {
                 author: 'max ritvo',
                 title: 'four reincarnations',
-                year: 2014,
+                year: '2014',
                 publisher: 'milkweed editions',
             }
         },
@@ -87,7 +87,7 @@ const Library = {
             book: {
                 author: 'seth macfarland',
                 title: 'american dad',
-                year: 2005,
+                year: '2005',
                 publisher: 'adult swim',
             }
         },
@@ -96,7 +96,7 @@ const Library = {
             book: {
                 author: 'sarah ruhl',
                 title: 'letters from max: a book of friendship',
-                year: 2016,
+                year: '2016',
                 publisher: 'milkweed',
             }
         }
